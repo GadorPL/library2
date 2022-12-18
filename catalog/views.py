@@ -18,7 +18,7 @@ def index(request):
     return render(request, 'catalog/index.html', context=context)
 
 
-class BookCreate(CreateView): #model_form.html
+class BookCreate(CreateView):  # model_form.html
     model = Book
     fields = '__all__'
 
